@@ -42,7 +42,7 @@ void BeginScan()
 {
     SignatureContainer PalUtility_IsPvP_Signature = [=]() -> SignatureContainer {
         return {
-            {{ "48 83 EC 28 E8 ?? ?? ?? ?? 0F B6 80 B5 00 00 00 48 83 C4 28 C3"}},
+            {{ "48 83 EC 28 E8 ?? ?? ?? ?? 0F B6 80 B9 00 00 00 48 83 C4 28 C3"}},
             [=](SignatureContainer& self) {
                 void* FunctionPointer = static_cast<void*>(self.get_match_address());
 
@@ -79,7 +79,7 @@ public:
     YetAnotherPvPFix() : CppUserModBase()
     {
         ModName = STR("YetAnotherPvPFix");
-        ModVersion = STR("1.4.0");
+        ModVersion = STR("1.5.0");
         ModDescription = STR("Fixes PvP.");
         ModAuthors = STR("Okaetsu");
 
