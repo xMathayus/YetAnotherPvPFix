@@ -4,7 +4,7 @@ Skips needing `bIsPvP` to be enabled to avoid side-effects like not being able t
 
 # Installation
 
-Installation is pretty straightforward, grab the [latest version of experimental UE4SS](https://github.com/UE4SS-RE/RE-UE4SS/releases/tag/experimental-latest) and the mod itself goes into the Mods folder in Win64/ue4ss/Mods
+Installation is pretty straightforward, grab the [latest version of experimental UE4SS](https://github.com/Okaetsu/RE-UE4SS/releases) and the mod itself goes into the Mods folder in Win64/ue4ss/Mods
 
 Once installed, your folder structure should look like the diagram below:
 
